@@ -1,20 +1,72 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 /* Nave section */
-.nave-section{
+.nave-section {
     display: flex;
     align-items: center;
     justify-content: space-around;
     /* list-style: none; */
     padding: 10px;
-    background-color: rgba(71, 125, 17, 0.15);    
+    background-color: rgba(71, 125, 17, 0.15);
 }
-.menu-bar{
+
+.menu-bar {
     list-style: none;
     display: flex;
     font-size: 20px;
     padding: 10px;
     gap: 30px;
+}
+
+/* Banner Section */
+.banner-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    /* padding: 200px; */
+}
+
+.pngwing {
+    width: 435px;
+    height: 600px;
+    margin-right: 150px;
+}
+
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-section-description {
+    padding: 80px;
+    margin: 100px;
+    /* text-align: left; */
+}
+
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 42px;
+    margin-top: 20px;
+    border: none;
+    color: white;
 }
