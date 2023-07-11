@@ -1,10 +1,12 @@
+/* Universal CSS */
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
 }
 
-/* Nave section */
+/* Nave section CSS */
 .nave-section {
     display: flex;
     align-items: center;
@@ -21,7 +23,7 @@
     gap: 30px;
 }
 
-/* Banner Section */
+/* Banner Section CSS */
 .banner-section {
     height: 100vh;
     display: flex;
@@ -70,7 +72,7 @@
     color: white;
 }
 
-/* Featured Flowers Section */
+/* Featured Flowers Section CSS*/
 
 .Featured {
     height: 20vh;
@@ -142,7 +144,7 @@
     text-align: center;
 }
 
-/* delivey-section */
+/* delivey-section CSS*/
 .delivey-section {
     padding: 30px 100px 30px 70px;
     background: rgba(39, 39, 39, 0.05);
@@ -181,7 +183,7 @@
     padding-left: 90px;
 }
 
-/* Hot Deal Section */
+/* Hot Deal Section CSS */
 .hot-deal-section {
     height: 70vh;
     display: flex;
@@ -217,7 +219,7 @@ span {
     color: #E55473;
 }
 
-/* Instagram section */
+/* Instagram section CSS */
 .instagram-featured {
     height: 50vh;
     display: flex;
@@ -233,7 +235,7 @@ span {
     flex-shrink: 0;
 }
 
-/* Form section */
+/* Newsletter section CSS*/
 
 .newslatter-conatiner {
     padding: 0 0 128px 0;
@@ -282,13 +284,14 @@ span {
     padding-bottom: 20px;
 }
 
-/* Footer section */
+/* Footer section CSS*/
 footer {
     background-color: black;
     padding: 100px 0px;
 }
 .footer-title{
     font-size: 40px;
+    font-family: Lato;
 }
 .footer-content {
     text-align: center;
