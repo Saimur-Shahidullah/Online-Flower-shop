@@ -72,7 +72,6 @@
     border: none;
     color: white;
 }
-
 /* Featured Flowers Section */
 
 .Featured {
@@ -183,9 +182,47 @@
     /* padding-right: 60px; */
     padding: 0px 65px 0px 55px;
 }
-.delivery-icon-group{
+
+.delivery-icon-group {
     padding-left: 80px;
 }
-.delivery{
+
+.delivery {
     padding-left: 90px;
+}
+
+/* Hot Deal Section */
+.hot-deal-section {
+    height: 70vh;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-left: 150px;
+    text-align: center;
+}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    /* justify-content: center; */
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    /* line-height: normal; */
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.deal-image{
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    padding-right: 150px;
+    padding-left: 0px;
+}
+span{
+    color: #E55473;
 }
