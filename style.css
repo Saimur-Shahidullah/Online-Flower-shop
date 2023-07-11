@@ -236,16 +236,17 @@ span {
 /* Form section */
 
 .newslatter-conatiner {
-        padding: 0 0 128px 0;
-        margin: 0px 0px  0px 200px  ;
-        text-align: center;
-        padding-top: 80px;
-        margin: 100px 150px;
-        background-image: url("Flower Asset/Rectangle\ 9.png");
-        background-size: cover;
-        background-repeat: no-repeat;
+    padding: 0 0 128px 0;
+    margin: 0px 0px 0px 200px;
+    text-align: center;
+    padding-top: 80px;
+    margin: 100px 150px;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.form-section{
+
+.form-section {
     /* display: flex; */
     /* padding: 15px 42px; */
     /* margin-top: 20px; */
@@ -254,21 +255,24 @@ span {
     /* text-align: center; */
     /* justify-content: center; */
 }
-.mail{
+
+.mail {
     padding: 13px 13px;
     border-radius: 5px;
     width: 470PX;
     margin: none;
     box-shadow: none;
 }
-.newslatter-title{
+
+.newslatter-title {
     color: #272727;
     text-align: center;
     font-family: Lato;
     font-size: 30px;
     font-weight: 800;
 }
-.newslatter-des{
+
+.newslatter-des {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -276,4 +280,39 @@ span {
     font-style: normal;
     font-weight: 400;
     padding-bottom: 20px;
+}
+
+/* Footer section */
+footer {
+    background-color: black;
+    padding: 100px 0px;
+}
+.footer-title{
+    font-size: 40px;
+}
+.footer-content {
+    text-align: center;
+    color: white;
+}
+
+.span {
+    font-size: 50px;
+    font-family: Lato;
+    color: #e55473;
+}
+
+.copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
